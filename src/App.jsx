@@ -14,8 +14,8 @@ function App() {
       <div className='audio'><Audio /></div>
       <div className='lista'>
         {
-          personagens.map(function (umPersonagem, index) {
-            return <Card key={index} info={umPersonagem} />
+          personagens.map(function (umPersonagem) {
+            return <Card key={umPersonagem.id} info={umPersonagem} />
           })
         }
       </div>
