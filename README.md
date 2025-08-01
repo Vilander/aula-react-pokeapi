@@ -76,7 +76,8 @@ npm install
 
 
 npm run dev
-Acesse em http://localhost:5173/
+
+### Acesse em http://localhost:5173/
 
 ## 🧠 Aprendizados
 Como trabalhar com props em componentes React
