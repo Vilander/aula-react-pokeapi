@@ -1,0 +1,1056 @@
+const item1 = {
+    id: '#1',
+    nome: 'Bulbasaur',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png'
+}
+
+const item2 = {
+    id: '#2',
+    nome: 'Ivysaur',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png'
+}
+
+const item3 = {
+    id: '#3',
+    nome: 'Venusaur',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png'
+}
+
+const item4 = {
+    id: '#4',
+    nome: 'Charmander',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png'
+}
+
+const item5 = {
+    id: '#5',
+    nome: 'Charmeleon',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png'
+}
+
+const item6 = {
+    id: '#6',
+    nome: 'Charizard',
+    tipo: 'Fogo/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png'
+}
+
+const item7 = {
+    id: '#7',
+    nome: 'Squirtle',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png'
+}
+
+const item8 = {
+    id: '#8',
+    nome: 'Wartortle',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png'
+}
+
+const item9 = {
+    id: '#9',
+    nome: 'Blastoise',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png'
+}
+
+const item10 = {
+    id: '#10',
+    nome: 'Caterpie',
+    tipo: 'Inseto',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png'
+}
+
+const item11 = {
+    id: '#11',
+    nome: 'Metapod',
+    tipo: 'Inseto',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png'
+}
+
+const item12 = {
+    id: '#12',
+    nome: 'Butterfree',
+    tipo: 'Inseto/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png'
+}
+
+const item13 = {
+    id: '#13',
+    nome: 'Weedle',
+    tipo: 'Inseto/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png'
+}
+
+const item14 = {
+    id: '#14',
+    nome: 'Kakuna',
+    tipo: 'Inseto/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png'
+}
+
+const item15 = {
+    id: '#15',
+    nome: 'Beedrill',
+    tipo: 'Inseto/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png'
+}
+
+const item16 = {
+    id: '#16',
+    nome: 'Pidgey',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png'
+}
+
+const item17 = {
+    id: '#17',
+    nome: 'Pidgeotto',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png'
+}
+
+const item18 = {
+    id: '#18',
+    nome: 'Pidgeot',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png'
+}
+
+const item19 = {
+    id: '#19',
+    nome: 'Rattata',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png'
+}
+
+const item20 = {
+    id: '#20',
+    nome: 'Raticate',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png'
+}
+
+const item21 = {
+    id: '#21',
+    nome: 'Spearow',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png'
+}
+
+const item22 = {
+    id: '#22',
+    nome: 'Fearow',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png'
+}
+
+const item23 = {
+    id: '#23',
+    nome: 'Ekans',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png'
+}
+
+const item24 = {
+    id: '#24',
+    nome: 'Arbok',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png'
+}
+
+const item25 = {
+    id: '#25',
+    nome: 'Pikachu',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png'
+}
+
+const item26 = {
+    id: '#26',
+    nome: 'Raichu',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png'
+}
+
+const item27 = {
+    id: '#27',
+    nome: 'Sandshrew',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png'
+}
+
+const item28 = {
+    id: '#28',
+    nome: 'Sandslash',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png'
+}
+
+const item29 = {
+    id: '#29',
+    nome: 'Nidoran♀',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png'
+}
+
+const item30 = {
+    id: '#30',
+    nome: 'Nidorina',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png'
+}
+
+const item31 = {
+    id: '#31',
+    nome: 'Nidoqueen',
+    tipo: 'Venenoso/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png'
+}
+
+const item32 = {
+    id: '#32',
+    nome: 'Nidoran♂',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png'
+}
+
+const item33 = {
+    id: '#33',
+    nome: 'Nidorino',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png'
+}
+
+const item34 = {
+    id: '#34',
+    nome: 'Nidoking',
+    tipo: 'Venenoso/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png'
+}
+
+const item35 = {
+    id: '#35',
+    nome: 'Clefairy',
+    tipo: 'Fada',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png'
+}
+
+const item36 = {
+    id: '#36',
+    nome: 'Clefable',
+    tipo: 'Fada',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png'
+}
+
+const item37 = {
+    id: '#37',
+    nome: 'Vulpix',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png'
+}
+
+const item38 = {
+    id: '#38',
+    nome: 'Ninetales',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png'
+}
+
+const item39 = {
+    id: '#39',
+    nome: 'Jigglypuff',
+    tipo: 'Normal/Fada',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png'
+}
+
+const item40 = {
+    id: '#40',
+    nome: 'Wigglytuff',
+    tipo: 'Normal/Fada',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png'
+}
+
+const item41 = {
+    id: '#41',
+    nome: 'Zubat',
+    tipo: 'Venenoso/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png'
+}
+
+const item42 = {
+    id: '#42',
+    nome: 'Golbat',
+    tipo: 'Venenoso/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png'
+}
+
+const item43 = {
+    id: '#43',
+    nome: 'Oddish',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png'
+}
+
+const item44 = {
+    id: '#44',
+    nome: 'Gloom',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png'
+}
+
+const item45 = {
+    id: '#45',
+    nome: 'Vileplume',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png'
+}
+
+const item46 = {
+    id: '#46',
+    nome: 'Paras',
+    tipo: 'Inseto/Planta',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png'
+}
+
+const item47 = {
+    id: '#47',
+    nome: 'Parasect',
+    tipo: 'Inseto/Planta',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png'
+}
+
+const item48 = {
+    id: '#48',
+    nome: 'Venonat',
+    tipo: 'Inseto/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png'
+}
+
+const item49 = {
+    id: '#49',
+    nome: 'Venomoth',
+    tipo: 'Inseto/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png'
+}
+
+const item50 = {
+    id: '#50',
+    nome: 'Diglett',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png'
+}
+
+const item51 = {
+    id: '#51',
+    nome: 'Dugtrio',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png'
+}
+
+const item52 = {
+    id: '#52',
+    nome: 'Meowth',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png'
+}
+
+const item53 = {
+    id: '#53',
+    nome: 'Persian',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png'
+}
+
+const item54 = {
+    id: '#54',
+    nome: 'Psyduck',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png'
+}
+
+const item55 = {
+    id: '#55',
+    nome: 'Golduck',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png'
+}
+
+const item56 = {
+    id: '#56',
+    nome: 'Mankey',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png'
+}
+
+const item57 = {
+    id: '#57',
+    nome: 'Primeape',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png'
+}
+
+const item58 = {
+    id: '#58',
+    nome: 'Growlithe',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png'
+}
+
+const item59 = {
+    id: '#59',
+    nome: 'Arcanine',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png'
+}
+
+const item60 = {
+    id: '#60',
+    nome: 'Poliwag',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png'
+}
+
+const item61 = {
+    id: '#61',
+    nome: 'Poliwhirl',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png'
+}
+
+const item62 = {
+    id: '#62',
+    nome: 'Poliwrath',
+    tipo: 'Água/Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png'
+}
+
+const item63 = {
+    id: '#63',
+    nome: 'Abra',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png'
+}
+
+const item64 = {
+    id: '#64',
+    nome: 'Kadabra',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png'
+}
+
+const item65 = {
+    id: '#65',
+    nome: 'Alakazam',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png'
+}
+
+const item66 = {
+    id: '#66',
+    nome: 'Machop',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png'
+}
+
+const item67 = {
+    id: '#67',
+    nome: 'Machoke',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png'
+}
+
+const item68 = {
+    id: '#68',
+    nome: 'Machamp',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png'
+}
+
+const item69 = {
+    id: '#69',
+    nome: 'Bellsprout',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png'
+}
+
+const item70 = {
+    id: '#70',
+    nome: 'Weepinbell',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png'
+}
+
+const item71 = {
+    id: '#71',
+    nome: 'Victreebel',
+    tipo: 'Planta/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png'
+}
+
+const item72 = {
+    id: '#72',
+    nome: 'Tentacool',
+    tipo: 'Água/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png'
+}
+
+const item73 = {
+    id: '#73',
+    nome: 'Tentacruel',
+    tipo: 'Água/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png'
+}
+
+const item74 = {
+    id: '#74',
+    nome: 'Geodude',
+    tipo: 'Pedra/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png'
+}
+
+const item75 = {
+    id: '#75',
+    nome: 'Graveler',
+    tipo: 'Pedra/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png'
+}
+
+const item76 = {
+    id: '#76',
+    nome: 'Golem',
+    tipo: 'Pedra/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png'
+}
+
+const item77 = {
+    id: '#77',
+    nome: 'Ponyta',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png'
+}
+
+const item78 = {
+    id: '#78',
+    nome: 'Rapidash',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png'
+}
+
+const item79 = {
+    id: '#79',
+    nome: 'Slowpoke',
+    tipo: 'Água/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png'
+}
+
+const item80 = {
+    id: '#80',
+    nome: 'Slowbro',
+    tipo: 'Água/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png'
+}
+
+const item81 = {
+    id: '#81',
+    nome: 'Magnemite',
+    tipo: 'Elétrico/Metálico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png'
+}
+
+const item82 = {
+    id: '#82',
+    nome: 'Magneton',
+    tipo: 'Elétrico/Metálico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png'
+}
+
+const item83 = {
+    id: '#83',
+    nome: 'Farfetch'd',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png'
+}
+
+const item84 = {
+    id: '#84',
+    nome: 'Doduo',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png'
+}
+
+const item85 = {
+    id: '#85',
+    nome: 'Dodrio',
+    tipo: 'Normal/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png'
+}
+
+const item86 = {
+    id: '#86',
+    nome: 'Seel',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png'
+}
+
+const item87 = {
+    id: '#87',
+    nome: 'Dewgong',
+    tipo: 'Água/Gelo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png'
+}
+
+const item88 = {
+    id: '#88',
+    nome: 'Grimer',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png'
+}
+
+const item89 = {
+    id: '#89',
+    nome: 'Muk',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png'
+}
+
+const item90 = {
+    id: '#90',
+    nome: 'Shellder',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png'
+}
+
+const item91 = {
+    id: '#91',
+    nome: 'Cloyster',
+    tipo: 'Água/Gelo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png'
+}
+
+const item92 = {
+    id: '#92',
+    nome: 'Gastly',
+    tipo: 'Fantasma/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png'
+}
+
+const item93 = {
+    id: '#93',
+    nome: 'Haunter',
+    tipo: 'Fantasma/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png'
+}
+
+const item94 = {
+    id: '#94',
+    nome: 'Gengar',
+    tipo: 'Fantasma/Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png'
+}
+
+const item95 = {
+    id: '#95',
+    nome: 'Onix',
+    tipo: 'Pedra/Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png'
+}
+
+const item96 = {
+    id: '#96',
+    nome: 'Drowzee',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png'
+}
+
+const item97 = {
+    id: '#97',
+    nome: 'Hypno',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png'
+}
+
+const item98 = {
+    id: '#98',
+    nome: 'Krabby',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png'
+}
+
+const item99 = {
+    id: '#99',
+    nome: 'Kingler',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png'
+}
+
+const item100 = {
+    id: '#100',
+    nome: 'Voltorb',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png'
+}
+
+const item101 = {
+    id: '#101',
+    nome: 'Electrode',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png'
+}
+
+const item102 = {
+    id: '#102',
+    nome: 'Exeggcute',
+    tipo: 'Planta/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png'
+}
+
+const item103 = {
+    id: '#103',
+    nome: 'Exeggutor',
+    tipo: 'Planta/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png'
+}
+
+const item104 = {
+    id: '#104',
+    nome: 'Cubone',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png'
+}
+
+const item105 = {
+    id: '#105',
+    nome: 'Marowak',
+    tipo: 'Terrestre',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png'
+}
+
+const item106 = {
+    id: '#106',
+    nome: 'Hitmonlee',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png'
+}
+
+const item107 = {
+    id: '#107',
+    nome: 'Hitmonchan',
+    tipo: 'Lutador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png'
+}
+
+const item108 = {
+    id: '#108',
+    nome: 'Lickitung',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png'
+}
+
+const item109 = {
+    id: '#109',
+    nome: 'Koffing',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png'
+}
+
+const item110 = {
+    id: '#110',
+    nome: 'Weezing',
+    tipo: 'Venenoso',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png'
+}
+
+const item111 = {
+    id: '#111',
+    nome: 'Rhyhorn',
+    tipo: 'Terrestre/Pedra',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png'
+}
+
+const item112 = {
+    id: '#112',
+    nome: 'Rhydon',
+    tipo: 'Terrestre/Pedra',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png'
+}
+
+const item113 = {
+    id: '#113',
+    nome: 'Chansey',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png'
+}
+
+const item114 = {
+    id: '#114',
+    nome: 'Tangela',
+    tipo: 'Planta',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png'
+}
+
+const item115 = {
+    id: '#115',
+    nome: 'Kangaskhan',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png'
+}
+
+const item116 = {
+    id: '#116',
+    nome: 'Horsea',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png'
+}
+
+const item117 = {
+    id: '#117',
+    nome: 'Seadra',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png'
+}
+
+const item118 = {
+    id: '#118',
+    nome: 'Goldeen',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png'
+}
+
+const item119 = {
+    id: '#119',
+    nome: 'Seaking',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png'
+}
+
+const item120 = {
+    id: '#120',
+    nome: 'Staryu',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png'
+}
+
+const item121 = {
+    id: '#121',
+    nome: 'Starmie',
+    tipo: 'Água/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png'
+}
+
+const item122 = {
+    id: '#122',
+    nome: 'Mr. Mime',
+    tipo: 'Psíquico/Fada',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png'
+}
+
+const item123 = {
+    id: '#123',
+    nome: 'Scyther',
+    tipo: 'Inseto/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png'
+}
+
+const item124 = {
+    id: '#124',
+    nome: 'Jynx',
+    tipo: 'Gelo/Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png'
+}
+
+const item125 = {
+    id: '#125',
+    nome: 'Electabuzz',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png'
+}
+
+const item126 = {
+    id: '#126',
+    nome: 'Magmar',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png'
+}
+
+const item127 = {
+    id: '#127',
+    nome: 'Pinsir',
+    tipo: 'Inseto',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png'
+}
+
+const item128 = {
+    id: '#128',
+    nome: 'Tauros',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png'
+}
+
+const item129 = {
+    id: '#129',
+    nome: 'Magikarp',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png'
+}
+
+const item130 = {
+    id: '#130',
+    nome: 'Gyarados',
+    tipo: 'Água/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png'
+}
+
+const item131 = {
+    id: '#131',
+    nome: 'Lapras',
+    tipo: 'Água/Gelo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png'
+}
+
+const item132 = {
+    id: '#132',
+    nome: 'Ditto',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png'
+}
+
+const item133 = {
+    id: '#133',
+    nome: 'Eevee',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png'
+}
+
+const item134 = {
+    id: '#134',
+    nome: 'Vaporeon',
+    tipo: 'Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png'
+}
+
+const item135 = {
+    id: '#135',
+    nome: 'Jolteon',
+    tipo: 'Elétrico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png'
+}
+
+const item136 = {
+    id: '#136',
+    nome: 'Flareon',
+    tipo: 'Fogo',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png'
+}
+
+const item137 = {
+    id: '#137',
+    nome: 'Porygon',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png'
+}
+
+const item138 = {
+    id: '#138',
+    nome: 'Omanyte',
+    tipo: 'Pedra/Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png'
+}
+
+const item139 = {
+    id: '#139',
+    nome: 'Omastar',
+    tipo: 'Pedra/Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png'
+}
+
+const item140 = {
+    id: '#140',
+    nome: 'Kabuto',
+    tipo: 'Pedra/Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png'
+}
+
+const item141 = {
+    id: '#141',
+    nome: 'Kabutops',
+    tipo: 'Pedra/Água',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png'
+}
+
+const item142 = {
+    id: '#142',
+    nome: 'Aerodactyl',
+    tipo: 'Pedra/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png'
+}
+
+const item143 = {
+    id: '#143',
+    nome: 'Snorlax',
+    tipo: 'Normal',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png'
+}
+
+const item144 = {
+    id: '#144',
+    nome: 'Articuno',
+    tipo: 'Gelo/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png'
+}
+
+const item145 = {
+    id: '#145',
+    nome: 'Zapdos',
+    tipo: 'Elétrico/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png'
+}
+
+const item146 = {
+    id: '#146',
+    nome: 'Moltres',
+    tipo: 'Fogo/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png'
+}
+
+const item147 = {
+    id: '#147',
+    nome: 'Dratini',
+    tipo: 'Dragão',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png'
+}
+
+const item148 = {
+    id: '#148',
+    nome: 'Dragonair',
+    tipo: 'Dragão',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png'
+}
+
+const item149 = {
+    id: '#149',
+    nome: 'Dragonite',
+    tipo: 'Dragão/Voador',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png'
+}
+
+const item150 = {
+    id: '#150',
+    nome: 'Mewtwo',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png'
+}
+
+const item151 = {
+    id: '#151',
+    nome: 'Mew',
+    tipo: 'Psíquico',
+    foto: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png'
+}

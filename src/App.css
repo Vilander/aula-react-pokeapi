@@ -13,10 +13,11 @@ body img {
 }
 
 .lista {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
   padding: 30px;
-  gap: 10rem;
+  gap: 2rem; 
+  justify-items: center; 
 }
 
 .logo {
