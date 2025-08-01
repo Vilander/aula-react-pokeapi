@@ -4,17 +4,33 @@
 }
 
 body {
-  background-color: rgb(236, 235, 235); /*cor do fundo*/
+  background-color: rgb(236, 235, 235);
+  /*cor do fundo*/
 }
 
-body img{
+body img {
   display: flex;
 }
-.lista{
+
+.lista {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  gap:10rem;
+  gap: 10rem;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
+.audio {
+  display: flex;
+  justify-content: center;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+}

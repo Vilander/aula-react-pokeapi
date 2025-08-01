@@ -1,5 +1,8 @@
 import './App.css'
 import Card from './Card';
+import Audio from './Audio';
+import Logo from './Logo';
+import Video from './Video';
 
 function App() {
   const item1 = {
@@ -68,6 +71,8 @@ function App() {
 
   return (
     <>
+      <div className='logo'><Logo/></div>
+      <div className='audio'><Audio/></div>
       <div className='lista'>
         {
           personagens.map(function (umPersonagem) {
@@ -75,6 +80,8 @@ function App() {
           })
         }
       </div>
+      <div className='video'><Video/></div>
+
     </>
   )
 }
