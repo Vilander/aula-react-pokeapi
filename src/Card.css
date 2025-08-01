@@ -1,37 +1,24 @@
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  color: inherit; 
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: inherit;
-}
-
+h2,
+h3,
 h4 {
+  font-family: Arial, Helvetica, sans-serif;
   color: inherit;
 }
-
 
 .card {
-  /* background-color: #fff; */
-  /* color: rgb(105, 105, 105); */
-  /*cor do texto*/
-  font-family: sans-serif;  /*tipo da fonte*/
-  border: 1px solid rgb(100, 100, 100);  /*Borda branca pequena*/
-  border-radius: 10px;  /*arredondamento da borda*/
-  text-align: center;  /*texto alinhado ao centro*/
-  width: 20%;  /*largura em 20%*/
-  /*margin: 0 auto;*/  /* margin 0 pra cima e pra baixo e auto pra esquerda e pra direita, isso faz a div ficar centralizada*/
-  padding: 10px;  /*espaçamento interno*/
-  box-shadow: 5px 6px 0 rgba(216, 216, 216, 0.582);  /*sombra da caixa*/
+  font-family: sans-serif;/*tipo da fonte*/
+  border: 1px solid rgb(100, 100, 100);/*Borda branca pequena*/
+  border-radius: 10px;/*arredondamento da borda*/
+  text-align: center;/*texto alinhado ao centro*/
+  width: 20%;/*largura em 20%*/
+  padding: 10px;/*espaçamento interno*/
+  box-shadow: 5px 6px 0 rgba(216, 216, 216, 0.582);/*sombra da caixa*/
 }
 
 
 .card img {
-  width: 100%;  /* largura de 100% da imagem*/
-  border-radius: 8px;  /* Cantos arredondados */
+  width: 100%;/* largura de 100% da imagem*/
+  border-radius: 8px;/* Cantos arredondados */
 }
 
 .card:hover {
@@ -39,22 +26,31 @@ h4 {
 }
 
 /* Estilo para tipo Fogo */
-.card.fogo ,
-.card.fogo h2,
-.card.fogo h3{
+.card.fogo,
+.card.fogo h3 {
   background-color: #ffe0b2;
   color: #d84315;
 }
 
 /* Estilo para tipo Água */
-.card.agua {
+.card.agua,
+.card.agua h3 {
   background-color: #bbdefb;
   color: #0d47a1;
 }
 
 /* Estilo para tipo Planta/Venenoso */
-.card.planta-venenoso {
-  background-color: #c8e6c9;
+.card.planta-venenoso,
+.card.planta-venenoso h3 {
+  background: #7b2a9b;
+  background: linear-gradient(90deg, rgba(123, 42, 155, 1) 0%, rgba(87, 199, 133, 1) 50%);
   color: #1b5e20;
 }
 
+.card.fogo h2,
+.card.agua h2,
+.card.planta-venenoso h2{
+  color: #fcfcfc;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: small;
+}
