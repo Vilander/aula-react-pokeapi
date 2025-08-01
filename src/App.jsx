@@ -10,16 +10,18 @@ function App() {
 
   return (
     <>
-      <div className='logo'><Logo /></div>
-      <div className='audio'><Audio /></div>
-      <div className='lista'>
-        {
-          personagens.map(function (umPersonagem) {
-            return <Card key={umPersonagem.id} info={umPersonagem} />
-          })
-        }
+      <div className="conteudo">
+        <div className='logo'><Logo /></div>
+        <div className='audio'><Audio /></div>
+        <div className='lista'>
+          {
+            personagens.map(function (umPersonagem) {
+              return <Card key={umPersonagem.id} info={umPersonagem} />
+            })
+          }
+        </div>
+        <div className='video'><Video /></div>
       </div>
-      <div className='video'><Video /></div>
 
     </>
   )
