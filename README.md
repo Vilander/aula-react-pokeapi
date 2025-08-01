@@ -19,13 +19,21 @@ Este projeto, desenvolvido durante aula do curso *técnico de informática para 
 ## 📁 Estrutura do Projeto
 
 📦 src/
+
 ├── App.jsx # Componente principal que renderiza toda a aplicação
+
 ├── App.css # Estilos gerais do layout e organização
+
 ├── Card.jsx # Componente de card individual para cada Pokémon
+
 ├── Card.css # Estilos visuais personalizados para cada tipo de Pokémon
+
 ├── pokedex.json # Lista com dados dos Pokémon (ID, nome, tipo e imagem)
+
 ├── Logo.jsx # Componente que exibe a logo da Pokédex
+
 ├── Audio.jsx # Componente para tocar trilha sonora ou efeito sonoro
+
 ├── Video.jsx # Componente que incorpora vídeo na interface
 
 
